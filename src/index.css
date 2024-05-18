@@ -1,0 +1,10 @@
+/* src/index.css */
+:root {
+  --background-default: #fafafa;
+  --background-paper: #ffffff;
+}
+
+[data-theme='dark'] {
+  --background-default: #303030;
+  --background-paper: #424242;
+}

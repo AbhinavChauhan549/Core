@@ -1,0 +1,44 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: var(--background-default);
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.MuiBox-root {
+  margin: 10px 0;
+}
+
+.MuiIconButton-root {
+  margin-left: 5px;
+}
+
+.MuiContainer-root {
+  padding-top: 20px;
+  background-color: var(--background-paper);
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
